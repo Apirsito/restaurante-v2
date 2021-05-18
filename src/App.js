@@ -7,13 +7,13 @@ import Crud from "./componentes/Crud";
 function App() {
   return (
     <div>
-    <Login>
+    {/* <Login>
 
     
     </Login>
     <ModalIngreso/>
-    <ModalRegistro/>
-
+    <ModalRegistro/> */}
+    <Crud></Crud>
     </div>
   );
 }

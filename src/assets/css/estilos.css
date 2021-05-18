@@ -1,3 +1,4 @@
+
 .fondo{
     height: 100vh;
     z-index: -1;
@@ -28,9 +29,7 @@ background: radial-gradient(100% 316.05% at 0% 0%, rgba(255, 255, 255, 0.42) 0%,
     
     box-shadow: 0px 5px 10px -5px black;
 }
-.jumbotron {
-    padding: 1rem 1rem;
-    margin-bottom: 0rem;
-    background-color: #e9ecef;
-    border-radius: .3rem;
+.borde__redondeado{
+    font-family: 'Amatic SC', cursive;
+border-radius: 10px;
 }
