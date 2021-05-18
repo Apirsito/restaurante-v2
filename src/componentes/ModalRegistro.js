@@ -18,25 +18,25 @@ const ModalRegistro = () => {
      
       </div>
       <div className="modal-body">
-        <form>
+        <form id="formularioRegistro" action="/">
         <div className="mb-3 px-3">
-            <input type="text" className="form-control text-center" id="user" placeholder="USUARIO"/>
+            <input type="text" className="form-control text-center" id="user" placeholder="USUARIO" required/>
           
         </div>    
         <div className="mb-3 px-3">
-            <input type="email" className="form-control text-center" id="email" placeholder="CORREO"/>
+            <input type="email" className="form-control text-center" id="email" placeholder="CORREO" required/>
           
         </div>    
         <div className="mb-3 px-3">
             
-            <input type="password" className="form-control text-center" id="pass" placeholder="CONTRASEÑA"/>
+            <input type="password" className="form-control text-center" id="pass" placeholder="CONTRASEÑA" required/>
           
         </div>             
         </form>
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-danger hover__sombra" data-bs-dismiss="modal">Salir</button>
-        <button type="button" className="btn btn-success hover__sombra">Registrarse</button>
+        <button type="submit" form="formularioRegistro" className="btn btn-success hover__sombra">Registrarse</button>
       </div>
     </div>
   </div>

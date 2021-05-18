@@ -3,9 +3,7 @@ import img1 from "../assets/img/imagen1.png"
 const ModalIngreso = () => {
     return (
         <>
-{/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
- Ingresar
-</button> */}
+
 <div className="modal fade" id="ingreso" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content shadow">
@@ -18,21 +16,21 @@ const ModalIngreso = () => {
      
       </div>
       <div className="modal-body">
-        <form>
+        <form id="formularioIngreso" action="crud">
         <div className="mb-3 px-3">
-            <input type="email" className="form-control text-center" id="email" placeholder="USUARIO"/>
+            <input type="email" className="form-control text-center" id="email" placeholder="USUARIO" required/>
           
         </div>    
         <div className="mb-3 px-3">
             
-            <input type="password" className="form-control text-center" id="pass" placeholder="CONTRASEÑA"/>
+            <input type="password" className="form-control text-center" id="pass" placeholder="CONTRASEÑA" required/>
           
         </div>             
         </form>
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-danger hover__sombra" data-bs-dismiss="modal">Salir</button>
-        <a type="button"  href="Crud.js" className="btn btn-success hover__sombra">Ingresar</a>
+        <button type="submit" form="formularioIngreso"  className="btn btn-success hover__sombra">Ingresar</button>
       </div>
     </div>
   </div>
