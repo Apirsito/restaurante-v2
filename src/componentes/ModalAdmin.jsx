@@ -18,7 +18,7 @@ const ModalAdmin = (props) => {
               <div className="modal-body">
                 <form id={props.boton}>
                 <div className="mb-3 px-3">
-                    <input type="text" className="form-control text-center" id="codigo" placeholder="CODIGO" required/>
+                    <input type="text" className="form-control text-center" id="codigo" placeholder="USUARIO" required/>
                   
                 </div>    
                 <div className="mb-3 px-3">
@@ -26,7 +26,7 @@ const ModalAdmin = (props) => {
                   
                 </div>    
                 <div className="mb-3 px-3">
-                    <input type="number" className="form-control text-center" id="cantidad" placeholder="CANTIDAD" required/>
+                    <input type="time" className="form-control text-center" id="cantidad" placeholder="HORA" required/>
                   
                 </div> 
                 <div className="mb-3 px-3">

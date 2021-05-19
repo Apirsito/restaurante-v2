@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ModalEliminar = (props) => {
+const ModalNotificacion = (props) => {
     return (
         <>
     
@@ -16,11 +16,11 @@ const ModalEliminar = (props) => {
              
               </div>
               <div className="modal-body text-center">
-               <h3>¿Estas Seguro que deseas eliminar?</h3>
+               <h3>{props.texto}</h3>
               </div>
               <div className="modal-footer">
                 <button type="button" className="btn btn-danger hover__sombra" data-bs-dismiss="modal">Cancelar</button>
-                <a type="button"  href="#" className="btn btn-success hover__sombra">Eliminar</a>
+                <a type="button"  href="#" className="btn btn-success hover__sombra">{props.nombreBoton}</a>
               </div>
             </div>
           </div>
@@ -29,4 +29,4 @@ const ModalEliminar = (props) => {
     );
 };
 
-export default ModalEliminar;
+export default ModalNotificacion;

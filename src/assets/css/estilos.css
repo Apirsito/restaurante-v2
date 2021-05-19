@@ -19,6 +19,13 @@ backdrop-filter: blur(10px);
 background: radial-gradient(100% 316.05% at 0% 0%, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.06) 100%);
 
 }
+.texto__tipo1{
+    font-family: 'Amatic SC', cursive;
+}
+.texto__tipo2{
+    font-family: 'Patrick Hand', cursive;
+
+}
 .modal-content{
     font-family: 'Amatic SC', cursive;
     border-radius: 20px;
@@ -36,4 +43,64 @@ background: radial-gradient(100% 316.05% at 0% 0%, rgba(255, 255, 255, 0.42) 0%,
 .borde__redondeado{
     font-family: 'Amatic SC', cursive;
 border-radius: 10px;
+}
+.drop { 
+    
+    filter: drop-shadow(0 2px 70px rgba(0, 0, 0, 0.8)); 
+
+}
+.opacity__2{
+    filter: blur(0.6px);
+}
+.text__area{
+    border: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 32px;
+    background-color: transparent;
+    line-height: 42px;
+}
+#bodyProductos{
+    font-family: 'Patrick Hand', cursive;
+
+}
+.boton__Absoluto{
+    position: absolute;
+    top: 540px;
+}
+
+textarea:focus{
+  
+    outline: 0 none;
+}
+.carta{
+
+  max-width: 540px!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+   
+    background-color: white;
+}
+
+.h{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 70vh!important;
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 20px rgba(0,0,0,1);
+    border-radius: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,1);
+    border-radius: 10px;
+    background-color: rgb(255, 250, 250);
+    background-image: -webkit-linear-gradient(90deg,transparent,rgba(204, 191, 191, 0.4) 50%,transparent,transparent)
 }

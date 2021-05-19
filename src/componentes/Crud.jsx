@@ -17,9 +17,9 @@ const Crud = () => {
             <table id="tablaProductos" className="table table-bordered align-middle shadow border-dark" >
               <thead>
                 <tr className="bg-dark text-light">
-                  <th scope="col"><h2 className="text-center"><strong>CODIGO</strong></h2></th>
+                  <th scope="col"><h2 className="text-center"><strong>USUARIO</strong></h2></th>
                   <th scope="col"><h2 className="text-center"><strong>DESCRIPCIÓN</strong></h2></th>
-                  <th scope="col"><h2 className="text-center"><strong>CANTIDAD</strong></h2></th>
+                  <th scope="col"><h2 className="text-center"><strong>HORA</strong></h2></th>
                   <th scope="col"><h2 className="text-center"><strong>ESTADO</strong></h2></th>
                   <th scope="col"><h2 className="text-center"><strong>ACCIONES</strong></h2></th>
                   
@@ -28,14 +28,14 @@ const Crud = () => {
               <tbody id="bodyProductos" className="bg-light text-center">
 
               <tr>
-                <th scope="row"><h4><strong>20161145958</strong></h4></th>
-                <td><h4><strong>Patacon Pizza pequeño</strong></h4></td>
-                <td><h4><strong>5</strong></h4></td>
-                <td><h4><strong>Recibido</strong></h4></td>
+                <th scope="row"><h4><strong>Apirsito <br /> 3103020680</strong></h4></th>
+                <td><h4><strong>2 Patacon Pizza pequeño <br /> 4 mazorcadas</strong></h4></td>
+                <td><h4><strong>4:50</strong></h4></td>
+                <td><h4><strong>Pendiente</strong></h4></td>
                 <td className="px-0">
                 <BotonModalIcono name="fas fa-edit"  nombreModal="#editar"/>
                
-                <BotonModalIcono name="fas fa-trash-alt"  nombreModal="#eliminar"/>
+                <BotonModalIcono name="fas fa-trash-alt"  nombreModal="#eliminar" />
                
                  </td>
               

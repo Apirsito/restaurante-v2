@@ -1,30 +1,24 @@
 import React from 'react';
 import img1 from "../assets/img/imagen1.png"
-const ModalRegistro = () => {
+const ModalIngreso = () => {
     return (
         <>
-{/* <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
- Ingresar
-</button> */}
-<div className="modal fade" id="registro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+<div className="modal fade" id="ingreso" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content shadow">
       <div className="modal-header mx-auto">
                
         <div>
         <img src={img1} alt="imagen1" />
-        <h1 className="text-center">REGISTRARSE</h1>
+        <h1 className="text-center">INGRESAR</h1>
         </div>
      
       </div>
       <div className="modal-body">
-        <form id="formularioRegistro" action="/">
+        <form id="formularioIngreso" action="crud">
         <div className="mb-3 px-3">
-            <input type="text" className="form-control text-center" id="user" placeholder="USUARIO" required/>
-          
-        </div>    
-        <div className="mb-3 px-3">
-            <input type="email" className="form-control text-center" id="email" placeholder="CORREO" required/>
+            <input type="email" className="form-control text-center" id="email" placeholder="USUARIO" required/>
           
         </div>    
         <div className="mb-3 px-3">
@@ -36,7 +30,7 @@ const ModalRegistro = () => {
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-danger hover__sombra" data-bs-dismiss="modal">Salir</button>
-        <button type="submit" form="formularioRegistro" className="btn btn-success hover__sombra">Registrarse</button>
+        <button type="submit" form="formularioIngreso"  className="btn btn-success hover__sombra">Ingresar</button>
       </div>
     </div>
   </div>
@@ -45,4 +39,4 @@ const ModalRegistro = () => {
     );
 };
 
-export default ModalRegistro;
+export default ModalIngreso;
