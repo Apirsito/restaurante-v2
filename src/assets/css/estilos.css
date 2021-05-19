@@ -1,15 +1,11 @@
 
-.fondo{
-    height: 100vh;
-    z-index: -1;
-}
 .fondo__img{
     height:100vh;
     width: 100vw;
     background-size: cover;
     object-fit: cover;
     position: absolute;
-    
+  
 }
 .fondo__blur{
 position: absolute;
@@ -104,3 +100,12 @@ textarea:focus{
     background-color: rgb(255, 250, 250);
     background-image: -webkit-linear-gradient(90deg,transparent,rgba(204, 191, 191, 0.4) 50%,transparent,transparent)
 }
+@media screen and (max-width: 991.98px) { 
+    
+    
+.h{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 65vh!important;
+}
+ }

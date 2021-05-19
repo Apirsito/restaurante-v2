@@ -17,19 +17,19 @@ const Login = () => {
             <div className="fondo__blur">
 
 
-                <div className="col-12 text-end">
-                    <BotonModal name="ingresar" clase="btn bg-dark text-white m-2 " nombreModal="#ingreso" />
-                    <BotonModal name="Registrarse" clase="btn bg-light m-2" nombreModal="#registro" />
+                <div className="col-12 text-md-end text-center">
+                    <BotonModal name="ingresar" clase="btn bg-dark text-white mt-4 m-md-2 col-11  col-sm-8 col-md-auto" nombreModal="#ingreso" />
+                    <BotonModal name="Registrarse" clase="btn bg-light m-md-2 mt-2 col-11  col-sm-8 col-md-auto" nombreModal="#registro" />
 
                 </div>
 
 
-               <div className="container my-5">
+               <div className="container my-md-5">
                     <div className=" my-3  ">
 
                         <BarraCategoria/>
 
-                        <div className="tab-content h" id="pills-tabContent">
+                        <div className="tab-content h " id="pills-tabContent">
                             <PlatosDia/>
                            <PlatosEspeciales/>
                             <Postres/>

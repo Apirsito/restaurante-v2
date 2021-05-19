@@ -4,10 +4,10 @@ const Carta = (props) => {
     return (
     <div className="card mb-3 carta shadow">
         <div className="row g-0">
-          <div className="col-md-4">
+          <div className="col-md-4 col-4">
             <img src={props.imagen} alt={props.imagen} className="img-fluid"/>
           </div>
-          <div className="col-md-8">
+          <div className="col-md-8 col-8">
             <div className="card-body">
               <h3 className="card-title texto__tipo1"><strong>{props.nombre}</strong></h3>
               <p className="card-text texto__tipo2">{props.texto}</p>
