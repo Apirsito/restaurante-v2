@@ -16,7 +16,7 @@ const ModalIngreso = () => {
      
       </div>
       <div className="modal-body">
-        <form id="formularioIngreso" action="crud">
+        <form id="formularioIngreso" action="comanda">
         <div className="mb-3 px-3">
             <input type="email" className="form-control text-center" id="email" placeholder="USUARIO" required/>
           

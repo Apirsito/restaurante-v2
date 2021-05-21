@@ -18,18 +18,23 @@ const ModalRegistro = () => {
      
       </div>
       <div className="modal-body">
-        <form id="formularioRegistro" action="/">
+        <form id="formularioRegistro" action="crud">
         <div className="mb-3 px-3">
-            <input type="text" className="form-control text-center" id="user" placeholder="USUARIO" required/>
+            <input type="text" className="form-control text-center" id="user" placeholder="NOMBRE DE USUARIO" required/>
           
         </div>    
         <div className="mb-3 px-3">
-            <input type="email" className="form-control text-center" id="email" placeholder="CORREO" required/>
+            <input type="number" className="form-control text-center" id="num" placeholder="NUMERO DE CELULAR" required/>
           
         </div>    
         <div className="mb-3 px-3">
             
             <input type="password" className="form-control text-center" id="pass" placeholder="CONTRASEÑA" required/>
+          
+        </div>       
+        <div className="mb-3 px-3">
+            
+            <input type="text" className="form-control text-center" id="direct" placeholder="DIRECCION" required/>
           
         </div>             
         </form>

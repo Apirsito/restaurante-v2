@@ -1,5 +1,5 @@
 import React from 'react';
-import fondo from "../assets/img/fondo.png"
+import fondo from "../assets/img/fondo.jpg"
 import BotonModalIcono from './BotonModalIcono';
 const Crud = () => {
   return (

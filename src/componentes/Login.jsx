@@ -1,8 +1,7 @@
 import React from 'react';
-import fondo from "../assets/img/fondo.png"
+import fondo from "../assets/img/fondo.jpg"
 import BotonModal from "./BotonModal"
-import Carta from "./Carta"
-import img1 from "../assets/img/imagen1.png"
+
 
 import BarraCategoria from './BarraCategoria';
 import PlatosDia from './PlatosDia';

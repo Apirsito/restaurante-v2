@@ -1,5 +1,5 @@
 import React from 'react';
-import fondo from "../assets/img/fondo.png"
+import fondo from "../assets/img/fondo.jpg"
 import comanda from "../assets/img/comanda.png"
 import BotonModalIcono from "../componentes/BotonModalIcono"
 const Comanda = () => {
